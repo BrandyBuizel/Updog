@@ -21,9 +21,6 @@ class Main {
         });
     }
     #end
-    public static inline var voxelgiVoxelSize = 16.0 / 256;
-    public static inline var voxelgiHalfExtents = 8;
-
     public static function main() {
         iron.object.BoneAnimation.skinMaxBones = 8;
 
