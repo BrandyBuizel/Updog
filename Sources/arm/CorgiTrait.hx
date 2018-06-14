@@ -7,15 +7,14 @@ import armory.trait.physics.RigidBody;
 class CorgiTrait extends iron.Trait{
     public function new(){
         super();
-        // We want to get notified every frame
         notifyOnUpdate(update);
     }
 
     function update(){
-        // f key was pressed
-        if (Input.getKeyboard().started("f")){
-            // Spawn Box object
-            Scene.active.spawnObject("Corgi", null, boxSpawned);
+        if(Input.getKeyboard().down("space")){}else{
+            if(Scene.active.getMesh("Corgi").transform.loc.z > 0){
+                Scene.active.getMesh("Corgi").transform.translate(0,0,-0.2);
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 // Auto-generated
 package ;
 class Main {
-    public static inline var projectName = 'updog';
+    public static inline var projectName = 'corgi';
     public static inline var projectPackage = 'arm';
     static var state:Int;
     #if js
