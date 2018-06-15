@@ -1,7 +1,7 @@
 package arm;
+import iron.Scene;
 import iron.object.Object;
 import iron.system.Input;
-import iron.Scene;
 import armory.trait.physics.RigidBody;
 
 class CorgiTrait extends iron.Trait{
