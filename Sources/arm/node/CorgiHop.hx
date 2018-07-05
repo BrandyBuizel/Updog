@@ -12,7 +12,7 @@ package arm.node;
 		var _TranslateObject_001 = new armory.logicnode.TranslateObjectNode(this);
 		_TranslateObject_001.addInput(_OnKeyboard, 0);
 		_TranslateObject_001.addInput(new armory.logicnode.ObjectNode(this, "Camera"), 0);
-		_TranslateObject_001.addInput(new armory.logicnode.VectorNode(this, 0.0, 0.0, 0.20999999344348907), 0);
+		_TranslateObject_001.addInput(new armory.logicnode.VectorNode(this, 0.0, 0.0, 0.11999999731779099), 0);
 		_TranslateObject_001.addOutputs([new armory.logicnode.NullNode(this)]);
 		_OnKeyboard.addOutputs([_TranslateObject, _TranslateObject_001]);
 		_TranslateObject.addInput(_OnKeyboard, 0);
